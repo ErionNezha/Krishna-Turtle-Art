@@ -1,0 +1,29 @@
+<!-- Created by Erion Nezha — © 2026 All rights reserved -->
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Krishna — Art me Turtle</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#050505;color:#ffcf4d;font-family:Georgia,serif;min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:18px}
+h1{font-size:1.5rem;margin-bottom:4px;text-shadow:0 0 18px #ffcf4d88}
+p.sub{color:#a8894a;font-size:.9rem;margin-bottom:12px;font-family:system-ui}
+#stage{width:min(96vw,960px);border:1px solid #ffcf4d44;border-radius:12px;overflow:hidden;box-shadow:0 0 40px #ffcf4d22}
+canvas{display:block;width:100%;height:auto;background:#000}
+#replay{margin-top:14px;background:#ffcf4d22;border:1px solid #ffcf4d88;color:#ffcf4d;padding:10px 26px;border-radius:8px;cursor:pointer;font-size:1rem}
+#replay:hover{background:#ffcf4d44}
+.note{color:#8a6a1f;font-size:.8rem;margin-top:10px;font-family:system-ui;text-align:center;max-width:640px}
+</style>
+</head>
+<body>
+<h1>🦚 Krishna — Art me Turtle</h1>
+<p class="sub">Simulim në browser i vizatimit origjinal Python <b>krishna.py</b> (biblioteka turtle)</p>
+<div id="stage"><canvas id="art" width="960" height="700"></canvas></div>
+<button id="replay">🔁 Rivizato</button>
+<p class="note">Origjinali vizaton me breshkën e Python-it (867 rreshta) fytyrën e Krishna-s me fyell e pendë palloi — këtu rikrijohet si animim canvas me të njëjtin kompozim: kontur ari në sfond të zi.</p>
+<script src="art.js"></script>
+<div class="erion-credit" style="position:fixed;bottom:10px;right:12px;z-index:9999;background:rgba(0,0,0,.55);color:#fff;font:12px system-ui,sans-serif;padding:6px 12px;border-radius:20px;pointer-events:none;">Krijuar nga Erion Nezha</div>
+</body>
+</html>
